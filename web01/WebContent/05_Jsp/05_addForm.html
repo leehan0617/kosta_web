@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<title>Insert title here</title>
+</head>
+<!--  jsp 내장객체 out객체,request객체,response객체 -->
+<body>
+	<form action="05_addView.jsp" method="post">
+		<label>이름</label>
+		<input type="text" name="name" /><br/>
+		
+		<label>주소</label>
+		<input type="text" name="address" /><br/>
+		
+		<label>성별</label>
+		<input type="radio" name="gender" value="man" />
+		<label>남자</label>
+		<input type="radio" name="gender" value="woman" />
+		<label>여자</label><br/><br/>
+		
+		<label>좋아하는 동물</label>
+		<input type="checkbox" name="pet" value="dog" />
+		<label>강아지</label>
+		<input type="checkbox" name="pet" value=" cat" />
+		<label>고양이</label>
+		<input type="checkbox" name="pet" value="pig" />
+		<label>돼지</label><br/><br/>
+		
+		<input type="submit" value="전송" />
+		<input type="reset" value="취소" />
+		
+	</form>
+</body>
+</html>

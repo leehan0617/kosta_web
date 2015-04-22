@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<title>Insert title here</title>
+</head>
+<body>
+ <!-- 
+ 	JSP 내장객체
+ 	1)out
+ 	2)request
+ 	3)response
+ 	4)<jsp:include> <jsp:forward>
+ 	5)<@page>,<@include>
+  -->
+	<form action="09_forwardB.jsp" method="post">
+		<label>혈액형별로 성격 테스트</label><br/>
+		
+		<input type="radio" name="blood" value="a" />
+		<label>A형</label>
+		<input type="radio" name="blood" value="b" />
+		<label>B형</label>
+		<input type="radio" name="blood" value="ab" />
+		<label>AB형</label>
+		<input type="radio" name="blood" value="o" />
+		<label>O형</label>
+		
+		<input type="submit" value="보내기" />
+		<input type="reset" value="취소" />
+	
+	</form>
+</body>
+</html>

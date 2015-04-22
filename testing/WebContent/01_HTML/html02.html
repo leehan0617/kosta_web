@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>문단</h3>
+	<p>p태그는 단락 중심으로 나누어진다.</p>
+	<pre>사용자가   작성한       내용      그대로</pre>
+	
+	
+	<h3>Div,Span 태그</h3>
+	<div>div 태그</div>
+	<span>span 태그</span>
+	
+	<h3>목록</h3>
+	<dl>
+		<dt>대분류</dt>
+			<dd>소분류</dd>
+			<dd>소분류</dd>
+		<dt>대분류</dt>
+			<dd>소분류</dd>
+			<dd>소분류</dd>
+		<dt>대분류</dt>
+			<dd>소분류</dd>
+			<dd>소분류</dd>	
+	</dl>
+	
+	<h3>순서가 있는 목록 ordered List</h3>
+	
+	<ol type="i" start="2">
+		<li>가</li>
+		<li>나</li>
+		<li>다</li>
+		<li>라</li>
+	</ol>
+	
+	<h3>순서가 없는 목록</h3>
+	<ul type="circle">
+		<li>가</li>
+		<li>나</li>
+		<li>다</li>
+		<li>라</li>
+	</ul>
+	
+	<!-- 상대경로 ./현재폴더 ../상위폴더 -->
+	
+	<img src="./Desert.jpg" width="150" height="100" />
+	<img src="./../Penguins.jpg" width="150" height="100" />
+	<img src="./../images/Chrysanthemum.jpg" width="150" height="100" />
+	<img src="../images/Chrysanthemum.jpg" width="150" height="100" />
+	<!-- 자신의 폴더경로는 생략가능 -->
+	
+	<object type="audio.mp3" data="./../images/Sleep Away.mp3" width="300" height="100" />
+	
+	<h3> 전혀 다른 사이트 이동</h3>
+	<a href="http://www.naver.com">naver Link</a>
+	<a href="http://www.naver.com" target="_blank">새창에서 열기naver Link</a>
+</body>
+</html>

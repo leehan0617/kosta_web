@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="http://localhost:8081/web01/servlet/Example10" method="post">
+		<table>
+			<tr>
+				<td><img src="../images/Koala.jpg" width="150" height="100"></img></td>
+				<td><img src="../images/Penguins.jpg" width="150" height="100"></img></td>
+				<td><img src="../images/Hydrangeas.jpg" width="150" height="100"></img></td>
+			</tr>
+			
+			<tr>
+				<td align="center">
+					<input type="checkbox" name="animal" value="Koala" />코알라
+				</td>
+				<td align="center">
+					<input type="checkbox" name="animal" value="Penguin"/>펭귄
+				</td>
+				<td align="center">	
+					<input type="checkbox" name="animal" value="Hydrangeas"/>수련
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="3" align="center">
+					<input type="submit" value="장바구니담기"/>
+					<input type="reset" value="취소" /> 
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+	<br/><br/>
+	<a href="http://localhost:8081/web01/servlet/Example10_Getting">장바구니 보기</a><br/><br/>
+	<a href="http://localhost:8081/web01/servlet/Example10_Delete">장바구니 삭제</a>
+</body>
+</html>

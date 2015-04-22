@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="EUC-KR" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR" />
+<link rel="stylesheet" type="text/css" href="addr.css"/>
+<script type="text/javascript" src="addr.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<a href="index.html">메뉴</a> <br/><br/>
+	
+	<form action="writeOk.jsp" method="post" onsubmit="return insertForm(this)">
+	<!-- onsubmit (서블릿 넘어가기전에 insertForm 실행) -->
+		<label>이름</label>
+		<input type="text" name="name" />
+		<br/>
+		
+		<label>전화번호</label>
+		<input type="text" name="phone" />
+		<br/>
+		
+		<label>이메일</label>
+		<input type="text" name="email" />
+		<br/>
+		
+		<input type="submit" value="작성" />
+		<input type="reset" value="취소" />
+		</form>
+</body>
+</html>
